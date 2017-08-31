@@ -23,7 +23,7 @@ import org.apache.uima.util.ProgressImpl;
  * 
  * @author NaCTeM - National Centre of Text Mining
  */
-@TypeCapability(inputs = {}, outputs = { "org.u_compare.shared.semantic.Place" }) // Input and output annotation types
+@TypeCapability(inputs = {}, outputs = { "org.apache.uima.examples.SourceDocumentInformation" }) // Input and output annotation types
 @ResourceMetaData(name = "Argo Example Reader")
 public class ExampleReader extends JCasCollectionReader_ImplBase {
 
