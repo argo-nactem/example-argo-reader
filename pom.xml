@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>uk.ac.nactem.argo</groupId>
 		<artifactId>argo-starter-components</artifactId>
-		<version>0.5</version>
+		<version>0.5.1</version>
 	</parent>
 
 	<artifactId>example-argo-reader</artifactId>
@@ -16,8 +16,8 @@
 		<!-- Redeclare all type system dependencies in the pear <profile>, but 
 			with their <scope> set to provided (see below for more details). -->
 		<dependency>
-			<groupId>org.u_compare</groupId>
-			<artifactId>U_compareTypeSystem</artifactId>
+			<groupId>uk.ac.nactem.uima</groupId>
+			<artifactId>UCompareTypeSystem</artifactId>
 			<version>1.2.4</version>
 		</dependency>
 		<dependency>
@@ -48,8 +48,8 @@
 					systems from Maven, which will automatically deal with type system dependencies 
 					and avoid the need for this profile. -->
 				<dependency>
-					<groupId>org.u_compare</groupId>
-					<artifactId>U_compareTypeSystem</artifactId>
+					<groupId>uk.ac.nactem.uima</groupId>
+					<artifactId>UCompareTypeSystem</artifactId>
 					<version>1.2.4</version>
 					<scope>provided</scope>
 				</dependency>
